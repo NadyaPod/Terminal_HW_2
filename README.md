@@ -50,8 +50,9 @@ cat >> tf_3 => the sec 2
 cat >> tf_2 => the sec 3
 ```
 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
+```
 cat >> tf_3 => the SeCoNd 2
-
+```
 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
 ```
 cat >> tf_2 => the seConD 2
@@ -69,8 +70,9 @@ yes '' | head -n 12 > tf_5.txt
 ls -la
 ```
 17. Выйти из папки inner_dir_1
+```
 cd ..
-
+```
 18. Вывести содержимое файла tf_3.txt в терминал.
 ```
 cat inner_dir_1\tf_3.txt
@@ -132,8 +134,9 @@ grep -rv 'second' .
 grep -rL 'second' .
 ```
 33. Вывести в терминал 4 последних строк любого текстового файла
+```
 tail -4 tf_2.txt
-
+```
 34. Вывести в терминал 4 первые строки любого текстового файла.
 ```
 head -4 tf_2.txt
